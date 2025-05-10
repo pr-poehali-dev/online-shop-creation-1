@@ -12,7 +12,7 @@ const Navbar = () => {
   const toggleSearch = () => setIsSearchOpen(!isSearchOpen);
 
   const categories = [
-    { name: "Электроника", path: "/category/electronics" },
+    { name: "Акаунты", path: "/category/electronics" },
     { name: "Одежда", path: "/category/clothing" },
     { name: "Дом и сад", path: "/category/home" },
     { name: "Красота", path: "/category/beauty" },
