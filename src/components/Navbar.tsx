@@ -24,14 +24,15 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link
-              to="/"
-              className="text-xl font-bold text-primary flex items-center"
-            >
-              <span className="bg-primary text-white rounded-md p-1 mr-2">
-                Loraga
+            <Link to="/" className="flex items-center">
+              <img
+                src="https://cdn.poehali.dev/files/e83764db-9cc2-495e-a947-6f638d43e9c1.jpg"
+                alt="LoragamoShop Logo"
+                className="h-10 w-10 rounded-full mr-2 object-cover"
+              />
+              <span className="text-xl font-bold text-primary">
+                LoragamoShop
               </span>
-              <span>moShop</span>
             </Link>
           </div>
 
